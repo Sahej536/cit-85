@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-selector 02</title>
+    <style>
+        li:first-child{
+            color:red;
+        }
+        li:last-child{
+            background-color:green;
+        }
+        li:nth-child(even){
+            font-size: 30px;
+        }
+        li:nth-child(odd){
+            background-color: yellow;
+        }
+        li:nth-child(2){
+            list-style: none;
+        }
+        li:nth-child(3n+3){
+            color:skyblue;
+        }
+        p:only-child{
+            font-size: 50px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo class-nth childs</h1>
+    <ul>
+        <li>Here</li>
+        <li>is</li>
+        <li>the</li>
+        <li>first</li>
+        <li>child</li>
+        <li>Pseudo</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+    <ul>
+        <li>Here</li>
+        <li>is</li>
+        <li>the</li>
+        <li>other</li>
+        <li>list</li>
+        <li>Pseudo</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+   <div>
+       <p>Number one child of parent </p>
+       <p>Here is the other sibling</p>
+   </div>
+   <div>
+       <p>Here is the only child</p>
+   </div>
+</body>
+</html>
