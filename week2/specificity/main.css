@@ -1,0 +1,50 @@
+div{
+    width:50%;
+    height:150px;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+/*--Specificity of this selector is 1--*/
+p{
+    color:red;
+}
+/*--Specificity of this selector is 10--*/
+.first{
+    color:blue;
+}
+/*--Specificity of this selector is 100--*/
+#second{
+    color:chartreuse;
+}
+/*--Specificity of this selector is 2--*/
+div h1{
+    color:rgb(130, 204, 12);
+}
+/*--Specificity of this selector is 100--*/
+#how{
+    color:teal;
+}
+/*--Specificity of this selector is 02--*/
+div p{
+    color:grey;
+}
+/*--Specificity of this selector is 02--*/
+div>p{
+    color:black;
+}
+/*--Specificity of this selector is 02--*/
+div~p{
+    color:hotpink;
+}
+/*--Specificity of this selector is 02--*/
+div+p{
+    color:indigo;
+}
+/*--Specificity of this selector is 11--*/
+p::first-letter{
+    color:purple;
+}
+/*--Specificity of this selector is 101--*/
+div #second{
+    color: rgb(104, 8, 8);
+}
