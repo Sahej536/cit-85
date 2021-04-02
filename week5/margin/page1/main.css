@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(88, 88, 179);
+  font-size: 1rem;
+}
+.pic {
+  width: 35%;
+  height: 200px;
+  margin: 0 auto;
+  border: 5px groove yellow;
+  border-radius: 70%;
+  background-image: url(./maxresdefault.jpg);
+  background-size: cover;
+}
+.main {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  background-color: rgb(103, 189, 103);
+  border: 5px solid black;
+  margin-bottom: 100px;
+}
+.head1 {
+  color: rgb(88, 88, 179);
+}
+.head2 {
+  color: red;
+}
