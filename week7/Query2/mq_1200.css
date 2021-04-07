@@ -1,0 +1,22 @@
+#one{
+    background-color: orangered;
+    flex-basis: 100%;
+}
+#two{
+    background-color: skyblue;
+    flex-basis: 100%;
+    
+}
+#three{
+    background-color: greenyellow;
+    flex-basis: 100%;
+}
+#four{
+    background-color: yellow;
+    flex-basis: 100%;
+}
+
+#five{
+    background-color: mediumpurple;
+    flex-basis: 100%;
+}

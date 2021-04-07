@@ -1,0 +1,47 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    border:2px dashed red;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+div{
+   
+    height: 100px;
+    border: 1px solid black;
+    font-size:1.5rem;
+    display:flex;
+    flex-basis:200px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-grow: 1;
+}
+#one{
+    background-color: orangered;
+    flex-basis: 100%;
+}
+#two{
+    background-color: skyblue;
+    flex-basis: 700px;
+    
+}
+#three{
+    background-color: greenyellow;
+    flex-basis: 500px;
+}
+#four{
+    background-color: yellow;
+}
+
+#five{
+    background-color: mediumpurple;
+}
