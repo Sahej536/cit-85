@@ -1,0 +1,35 @@
+nav, ul, li, main, section{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    margin:20px auto;
+    border:2px solid rgba(255, 0, 0, 0.527)
+}
+nav{
+    width:100%;
+    border:2px solid red;
+}
+main{
+    width:100%;
+    padding:10px;
+    border:2px solid red;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding:10px;
+}
+section{
+    margin-bottom: 10px;
+}
