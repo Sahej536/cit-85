@@ -1,0 +1,21 @@
+html, body, div{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    border:2px solid red;
+    background-image: url(./tropics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 5rem;
+    text-align: center;
+}
