@@ -1,0 +1,27 @@
+html,body,ul,li,a{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+ul{
+    display:flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    display:block;
+    text-align: center;
+    padding:20px 0;
+    color:white;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+a:hover{
+    background-color: royalblue;
+}
