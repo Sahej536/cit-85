@@ -1,0 +1,36 @@
+body, html, header, article, aside, footer{
+    padding:0;
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header, article, aside, footer{
+    width:100%;
+    padding:10px;
+    text-align: center;
+}
+header{
+    background-color: tomato;
+}
+article{
+    background-color: deepskyblue;
+
+}
+p{
+    text-align: left;
+}
+#one{
+    background-color: gold;
+}
+#two{
+    background-color: hotpink;
+}
+footer{
+    background: lightgreen;
+}

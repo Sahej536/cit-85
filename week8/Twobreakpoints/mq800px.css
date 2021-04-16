@@ -1,0 +1,18 @@
+body{
+    padding:0 3rem;
+}
+#one{
+    order:1;
+    width:15%;
+}
+article{
+    order:2;
+    width:70%;
+}
+#two{
+    order:3;
+    width:15%;
+}
+footer{
+    order:4;
+}
