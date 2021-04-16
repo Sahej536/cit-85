@@ -1,10 +1,9 @@
+body{
+    padding:0 2rem;
+}
 #one{
     width:50%;
-
 }
 #two{
     width:50%;
-}
-body{
-    padding:0 2rem;
 }
