@@ -19,8 +19,7 @@ header{
     background-color: tomato;
 }
 article{
-    background-color: deepskyblue;
-
+    background-color: rgb(24, 165, 212);
 }
 p{
     text-align: left;
