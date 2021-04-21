@@ -1,0 +1,15 @@
+*{
+    border:2px solid red;
+}
+div{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    color:aqua;
+}
+#one{
+    position:relative;
+    top:10px;
+    left:10px;
+    background-color: green;
+}
