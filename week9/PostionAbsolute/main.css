@@ -1,0 +1,27 @@
+html{
+    border:5px solid green;
+}
+body{
+    width:40%;
+    border:2px solid red;
+    margin:0 auto;
+}
+div{
+    border:2px solid blue;
+    color:red;
+}
+#one{
+    position:relative;
+    width:500px;
+    height:400px;
+    background-color: gray;
+    margin:0 auto;
+}
+#two{
+    position:absolute;
+    width:200px;
+    height:150px;
+    background-color: greenyellow;
+    top:100px;
+    right:0;
+}
