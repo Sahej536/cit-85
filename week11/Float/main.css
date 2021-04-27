@@ -1,0 +1,35 @@
+html, body, header, div, footer{
+    margin:0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    height: 150px;
+    background-color: rgb(255, 217, 0);
+    border: 7px solid blue;
+}
+.one{
+    border:10px solid green;
+    background-color: black;
+    overflow: auto;
+}
+#nav, #main{
+    border:5px solid black;
+    height:200px;
+}
+#nav{
+    float:left;
+    width:20%;
+    background-color: skyblue;
+}
+#main{
+    float:right;
+    width:80%;
+    background-color:lightgreen ;
+}
+footer{
+    height: 150px;
+    background-color: purple;
+    border: 7px solid red;
+}
