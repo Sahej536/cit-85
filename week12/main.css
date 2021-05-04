@@ -1,0 +1,161 @@
+html, body, header, ul, li, a, footer{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+header{
+    background-image:url(./pexels-photo-2850287.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+}
+ul{
+    list-style:none;
+    float:right;
+    margin:50px;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border:2px solid bisque;
+    border-radius:5px;
+    transition:0.6s ease;
+}
+a:hover{
+    background-color: bisque;
+    color:red;
+}
+main{
+    height:100vh;
+    border:5px groove bisque;
+    border-radius: 5px;
+    margin:10px;
+    background-color:bisque;
+    display:flex;
+    flex-direction: column;
+    background-image: url(./fog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+section{
+    height:200px;
+    border:2px solid black;
+}
+#s1 {
+    background-color: rgba(54, 255, 153, 0.25);
+}
+
+#s2 {
+    background-color: rgba(78, 110, 255, 0.25);
+}
+
+#s3 {
+    background-color: rgba(255, 141, 97, 0.25);
+}
+
+#s4 {
+    background-color: rgba(197, 43, 255, 0.25);
+}
+footer{
+    font-size: 1rem;
+    background-color: black;
+    height:auto;
+    padding-top:40px;
+    color:#fff;
+    font-weight: 100;
+
+}
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-content h3{
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 900px;
+    margin:10px auto;
+
+}
+.footer-bottom{
+    width:100vw;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+.footer-bottom p{
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footer-bottom span{
+    opacity:0.4;
+    font-weight: 200;
+}
+/* Page 2  */
+#one{
+    height:100px;
+    background-color:rgba(135, 207, 235, 0.637)
+}
+.pictures{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    background-color: black;
+}
+.pic{
+    height:700px;
+    width:700px;
+    border:2px solid red;
+    margin:20px 0;
+    box-shadow: 5px 5px 5px red;
+}
+#riv{
+    background-image:url(./river.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+#mou{
+    background-image:url(./mountain.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#lan{
+    background-image:url(./landscapes.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#wat{
+    background-image:url(./waterfall.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#bea{
+    background-image:url(./beach.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
