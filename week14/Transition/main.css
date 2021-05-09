@@ -1,0 +1,29 @@
+html,body,div{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid red;
+    background-color: bisque;
+}
+div{
+    width:300px;
+    height:300px;
+    border:1px solid red;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+div:hover{
+    background-color:cadetblue;
+}
+.trans{
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
